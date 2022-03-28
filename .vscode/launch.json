@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Core Launch (web) with Dapr",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "daprd-debug",
+            "program": "${workspaceFolder}/src/ControllerSample/bin/Debug/net6.0/ControllerSample.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/ControllerSample",
+            "stopAtEntry": false,
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "postDebugTask": "daprd-down"
+        }
+    ]
+}
