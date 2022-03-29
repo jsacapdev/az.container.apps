@@ -1,4 +1,4 @@
-//Deposit Money
+### deposit
 
 POST http://127.0.0.1:5000/sample/deposit
 Content-Type: application/json
@@ -8,14 +8,15 @@ Content-Type: application/json
     "amount": 12
 }
 
-###
+### withdraw
 
-//Withdraw Money
-
-POST http://127.0.0.1:5000/withdraw
+POST http://127.0.0.1:5000/sample/withdraw
 Content-Type: application/json
 
-{ "id": "17", "amount": 5 }
+{ 
+    "id": "17", 
+    "amount": 5
+}
 
 ###
 
