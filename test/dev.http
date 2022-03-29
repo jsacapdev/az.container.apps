@@ -1,6 +1,6 @@
 //Deposit Money
 
-POST http://127.0.0.1:500/deposit
+POST http://127.0.0.1:5000/sample/deposit
 Content-Type: application/json
 
 {
